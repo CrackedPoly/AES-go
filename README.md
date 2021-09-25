@@ -25,11 +25,9 @@ decrypt
 
 help
 
-`encrypt help` or `decrypt help`
+`help encrypt` or `help decrypt`
 
 ## Arguments
-Capital or lower hex letters doesn't matter.
-
 ### key
 Not being 128, 192, or 256 bits leads to an error. 
 
@@ -97,3 +95,4 @@ block[0]: ffdab598 c8ea91dd 78b854d0 12eebcd2
 
 ## Thanks
 
+Thanks to [urfave](https://github.com/urfave/cli) and [otokaze](https://github.com/otokaze/go-kit) for CLI tools.
